@@ -1,4 +1,4 @@
-\# Veterinary Clinic Management System
+# Veterinary Clinic Management System
 
 
 
@@ -10,7 +10,7 @@ The project demonstrates object-oriented programming, structured system design, 
 
 
 
-\## Features
+## Features
 
 \- Clinic and patient management
 
@@ -22,7 +22,7 @@ The project demonstrates object-oriented programming, structured system design, 
 
 
 
-\## Technologies Used
+## Technologies Used
 
 \- C#
 
@@ -32,17 +32,7 @@ The project demonstrates object-oriented programming, structured system design, 
 
 
 
-\## How to Run
-
-1\. Open the project in Visual Studio.
-
-2\. Restore dependencies if prompted.
-
-3\. Run the application using the built-in debugger.
-
-
-
-\## Academic Context
+## Academic Context
 
 This project was completed as part of my academic studies.
 
