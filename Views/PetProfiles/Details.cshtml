@@ -1,0 +1,16 @@
+﻿@model VetClinicSystem.Models.PetProfile
+
+<h1>Pet Profile Details</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">Pet</dt>
+    <dd class="col-sm-10">@Model.Pet?.Name</dd>
+
+    <dt class="col-sm-2">Vet Notes</dt>
+    <dd class="col-sm-10">
+        <pre style="white-space: pre-wrap">@Model.VetNotes</pre>
+    </dd>
+</dl>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back</a>

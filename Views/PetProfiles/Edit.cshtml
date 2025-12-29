@@ -1,0 +1,26 @@
+﻿@model VetClinicSystem.Models.PetProfile
+
+<h1>Edit Pet Profile</h1>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="PetId">Pet</label>
+        <select asp-for="PetId" class="form-control" asp-items="ViewBag.PetId"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VetNotes">Current / Typed Notes</label>
+        <textarea asp-for="VetNotes" class="form-control" rows="4"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Or upload new notes from .txt file</label>
+        <input type="file" name="notesFile" class="form-control" />
+        <small>If you upload a file, its content will replace the text above.</small>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Save</button>
+    <a asp-action="Index" class="btn btn-secondary mt-2">Back</a>
+</form>
